@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Magis tv</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="bannercolor">
+                <div class="bannertext">
+                    <h1>Todo el entretenimiento en una APP</h1>
+                    <p>Disfruta de 1300 canales en vivo y la mas 
+                    amplia biblioteca en series y películas bajo demanda
+                    </p>
+                    
+                </div>
+            </div>        
+        </div>
+
+        <div class="container1">
+            <h2>Disponible para</h2>
+            <div class="bannericons">
+                <div class="iconos">
+                    <img src="Android.png" alt="">
+                </div>
+                <div class="iconos">
+                    <img src="tvandroid.png" alt="">
+                </div>
+                <div class="iconos">
+                    <img src="tvbox.png" alt="">
+                </div>
+                <div class="iconos">
+                    <img src="firetv.png" alt="">
+                </div>
+            </div>
+
+            <div class="funcionamiento">
+                <h3>¿Cómo Funciona?</h3>
+                <p>
+                    Esta app se enlaza con una 
+                    señal transmitida desde nuestros servidores, 
+                    los cuales utilizan internet para transmitir 
+                    contenido multimedia, como series y películas
+                    que podrás reproducir y disfrutar a tu gusto; 
+                    Solo necesitas una conexión a internet estable
+                    a partir de 10 megas de velocidad.
+                </p>
+            </div>
+
+            <div class="iptv">
+                <p>Si tu dispositivo no es compatible, pregúntanos  
+                    por la alternativa para televisores smart
+                </p>
+                
+            </div>
+
+
+
+            <h3>Cómo instalar magistv en televisor</h3>
+            <div class="container2">
+                
+                <div class="containervideo">
+                    <video controls src="video1.mp4"></video>
+                </div>
+                <div class="containerlink">
+                    <h4>Descarga para Tv </h4>
+                    <a target="_blank" href="https://magisla.com/magistv.apk">https://bit.ly/43wD1jR</a>
+                </div>
+            <div>
+                <h3>Cómo instalar magistv en celular</h3>
+                <div class="container2">
+                    
+                    <div class="containervideo">
+                        <video controls src="video2.mp4"></video>
+                    </div>
+                    <div class="containerlink">
+                        
+                        <h4>Descarga para Celulares Android</h4>
+                        <a target="_blank" href="https://magisla.com/magismobile.apk">https://bit.ly/3DmSbOc</a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="canales">
+            <h3>Canales Disponibles</h3>
+            <ul>
+                <li>Durante algunos eventos se activan canales especiales</li>
+                <li>Los canales pueden variar su numeración </li>
+                <li>Si no encuentra el canal que busca nos puedes escribir al 302 8299014</li>
+            </ul>    
+
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide"><img src="3.png" alt="Imagen 2"></div>
+                    <div class="slide"><img src="4.png" alt="Imagen 2"></div>
+                    <div class="slide"><img src="5.png" alt="Imagen 2"></div>
+                    <div class="slide"><img src="6.png" alt="Imagen 2"></div>
+                    <div class="slide"><img src="7.png" alt="Imagen 2"></div>
+                    <div class="slide"><img src="8.png" alt="Imagen 2"></div>
+                    <div class="slide"><img src="9.png" alt="Imagen 2"></div>
+                    <div class="slide"><img src="10.png" alt="Imagen 2"></div>
+                    <div class="slide"><img src="11.png" alt="Imagen 2"></div>
+                    <div class="slide"><img src="12.png" alt="Imagen 2"></div>
+                    <div class="slide"><img src="13.png" alt="Imagen 2"></div>
+                </div>
+                <div class="arrow prev" onclick="prevSlide()">&#10094;</div>
+                <div class="arrow next" onclick="nextSlide()">&#10095;</div>
+            </div>
+        </div>
+        <a href="https://wa.link/4b13fl" target="_blank"><button class="whatsapp"></button></a>
+        
+        <img class="otrosservicios" src="Pagos de servicios y recargas.png" alt="">
+
+        <script>
+            let slideIndex = 0;
+            showSlide(slideIndex);
+        
+            function showSlide(index) {
+            const slides = document.querySelectorAll('.slide');
+            if (index < 0) slideIndex = slides.length - 1;
+            if (index >= slides.length) slideIndex = 0;
+            
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = 'none';
+            }
+            slides[slideIndex].style.display = 'block';
+            }
+        
+            function prevSlide() {
+            showSlide(slideIndex -= 1);
+            }
+        
+            function nextSlide() {
+            showSlide(slideIndex += 1);
+            }
+        </script>
+        
+    </body>
+</html>

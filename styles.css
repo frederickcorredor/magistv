@@ -1,0 +1,180 @@
+.body{
+  margin: 0;
+  padding: 0;
+  font-size: 46px;
+}
+
+h1{
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2, h3{
+  font-size: 3.5rem;
+  text-align: center;
+  color: white;
+
+}
+
+
+
+.banner{
+text-align: center;
+background-image: url("bannermagis.jpg");
+background-attachment: fixed;
+margin: 0;
+color: aliceblue;
+font-size: 1rem;
+}
+
+.container1{
+  background-color:rgb(1, 116, 248) ;
+  margin: 0;
+  border: 2px solid rgb(1, 116, 248);
+}
+
+.bannercolor{
+  background-color: rgba(0, 136, 255, 0.466);
+  padding: 3rem;
+}
+.bannericons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  overflow: hidden;
+  background-color: white;
+  
+}
+.bannericons img{
+  max-width: 150px;
+  min-width: 100px;
+}
+
+.iconos{
+  margin: 1rem;
+}
+
+.iptv{
+  background-color: red;
+  border: 6px solid white;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  padding: 0 10px;
+  margin: 0px;
+}
+
+.container2{
+  max-width: 100%;
+  margin: 4px;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+}
+.container2 video{
+  max-width: 100%;
+  margin: 4px;
+  max-height: 900px;
+  
+}
+.containervideo{
+  background-color: white;
+  padding: 6px;
+  max-width: 80%;
+}
+
+.containerlink{
+  margin: 2px;
+  padding: 2px;
+color: white;
+font-size: 3rem;
+text-align: center;
+}
+.containerlink a{color: rgb(0, 0, 0)(8, 8, 8);
+font-size: 3rem;}
+
+.funcionamiento{
+  margin: 0;
+  padding: 1rem;
+  text-align: left;
+  font-size: 3rem;
+  color: white;
+}
+
+
+.slider-container {
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  background-color: black ;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease;
+  background-color: black;
+  border: 2px solid white;
+  
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.slide img{
+  width: 100%;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 34px;
+  padding: 5px;
+  background-color: #ccc;
+}
+
+.arrow.next {
+  right: 20px;
+}
+
+.arrow.prev {
+  left: 20px;
+}
+.canales{
+  background-color:rgb(19, 19, 19);
+  font-size: 34px;
+  text-align: justify;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.canales h3{
+  font-size: 50px;
+}
+
+.whatsapp{
+  background-image: url(whatsapp.png);
+  background-size: cover;background-position: center;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  padding: 4rem;
+}
+
+.otrosservicios{
+  width: 100%;
+}
